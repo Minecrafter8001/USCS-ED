@@ -8,8 +8,8 @@ Rules:
  - Numbers cannot be used due to the character limit. If you want to differentiate between ships with the same ID, do so with their name.
 
 Format:
-- "a" means a primary purpose; these can be used on any ship that serves said purpose.
-- "a \ " means that this purpose falls under the last purpose, so TRD covers MIN and LAS, but MIN doesn't cover TRA.
+- a dash (-) means a primary purpose; these can be used on any ship that serves said purpose.
+- a slash (\) means that this purpose falls under the last purpose, so TRD covers MIN and LAS, but MIN doesn't cover TRA.
 - While you can use CMB on an anti-xeno ship, it's usually better to use AXO. The same goes for TRD on a core mining ship, but COR provides more information.
 
 Pad Size:
