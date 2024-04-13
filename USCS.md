@@ -4,13 +4,13 @@
 **Rules:**
 - The ID must always start with the pad size.
 - Pad size and purpose must be separated with a dot.
-- Each ID cannot be longer than 6 characters (this includes every part, including the dash)    .
+- Each ID cannot be longer than 6 characters (this includes every part, including the dash).
 - Numbers cannot be used due to the character limit. If you want to differentiate between ships with the same ID, do so with their name.
 
 **Format:**
-- a dot means a primary purpose; these can be used on any ship that serves said purpose.
-- a indented dot means that this purpose falls under the last purpose, so TRD covers MIN and LAS, but MIN doesn't cover TRA.
-- an indented square means a subsub purpose. for example the difference between a trading ship, a mining ship and a core mining ship
+- A dot means a primary purpose; these can be used on any ship that serves said purpose.
+- An indented dot means that this purpose falls under the last purpose, so TRD covers MIN and LAS, but MIN doesn't cover TRA.
+- An indented square means a sub-sub purpose, for example, the difference between a trading ship, a mining ship, and a core mining ship.
 
 **Pad Size:**
 - MP: Medium pad (for ships that require medium-sized landing pads)    
@@ -19,7 +19,7 @@
 
 **Purpose:**
 - EXP: Explorer (for ships designed for exploration)    
-  -  GRD: Guardian (for ships designed for running guardian monuments, usually equipped with an SRV bay and point defense turrets)    
+  - GRD: Guardian (for ships designed for running Guardian monuments, usually equipped with an SRV bay and point defense turrets)    
   - LRG: Long range (for ships with long jump ranges, usually equipped with an engineered FSD and/or a Guardian FSD booster)    
 - TRD: Trade (for ships designed for trading)    
   - MIN: Miner (for ships designed for mining)    
@@ -34,15 +34,15 @@
   - PVP: Player vs. Player (for ships specialized in player combat)    
   - AXO: Anti-Xeno Operations (for ships designed for combating alien threats)    
 - REC: Rescue (for ships designed for player rescues)    
-  - FUL: Refueler (for ships ment to refuel others)
-    - RAT: Fuel Rat (for ships specficly designed to do fuel ratting. see [fuelrats.com](https://fuelrats.com))
-  - REP: Repair (for ships designed to repair other ships, usualy equiped with repair limped controllers or rescue multi-limpet controllers)
-    - HUL: Hull Seal (for ships ment for hull seals. see [hullseals.space](https://hullseals.space))
+  - FUL: Refueler (for ships meant to refuel others)
+    - RAT: Fuel Rat (for ships specifically designed for hull seals. see [fuelrats.com](https://fuelrats.com))
+  - REP: Repair (for ships designed to repair other ships, usually equipped with repair limpet controllers or rescue multi-limpet controllers)
+    - HUL: Hull Seal (for ships specifically designed for hull seals. see [hullseals.space](https://hullseals.space))
 
         
 - GEN: General-Purpose (for ships designed for versatile or undefined roles)    
 - UTL: Utility (for ships designed for general-purpose utility or miscellaneous roles)    
-- DEC: Decommissioned (for ships that are no longer in use and/or been stipped of all modules)    
+- DEC: Decommissioned (for ships that are no longer in use and/or been stripped of all modules)    
 
 **Examples:**
 - MP-EXP: Medium pad exploration ship
