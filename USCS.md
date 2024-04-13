@@ -33,6 +33,8 @@ Purpose:
   \ PVE: Player vs. Entity (for ships specialized in combating NPCs)
   \ PVP: Player vs. Player (for ships specialized in player combat)
   \ AXO: Anti-Xeno Operations (for ships designed for combating alien threats)
+ - REC: Rescue (for ships designed for player rescues)
+  \ FUL: Refueler (for ships ment to refuel others. see fuelrats.com)
  - GEN: General-Purpose (for ships designed for versatile or undefined roles)
  - UTL: Utility (for ships designed for general-purpose utility or miscellaneous roles)
  - DEC: Decommissioned (for ships that are no longer in use and/or been stipped of all modules)
