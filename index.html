@@ -1,11 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedding Markdown File</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universal Ship Classification System</title>
 </head>
 <body>
-    <iframe src="USCS.md" style="width: 100%; height: 100vh; border: none;"></iframe>
+  <h1>Universal Ship Classification System</h1>
+  <p><em>REV: 2.0</em></p>
+
+  <h2>Rules:</h2>
+  <ul>
+    <li>The ID must always start with the pad size.</li>
+    <li>Pad size and purpose must be separated with a dot.</li>
+    <li>Each ID cannot be longer than 6 characters (this includes every part, including the dash).</li>
+    <li>Numbers cannot be used due to the character limit. If you want to differentiate between ships with the same ID, do so with their name.</li>
+  </ul>
+
+  <h2>Format:</h2>
+  <ul>
+    <li>A dot means a primary purpose; these can be used on any ship that serves said purpose.</li>
+    <li>An indented dot means that this purpose falls under the last purpose, so TRD covers MIN and LAS, but MIN doesn't cover TRA.</li>
+    <li>An indented square means a sub-sub purpose, for example, the difference between a trading ship, a mining ship, and a core mining ship.</li>
+  </ul>
+
+  <h2>Pad Size:</h2>
+  <ul>
+    <li>MP: Medium pad (for ships that require medium-sized landing pads)</li>
+    <li>SP: Small pad (for ships that require small-sized landing pads)</li>
+    <li>LP: Large pad (for ships that require large-sized landing pads)</li>
+  </ul>
+
+  <h2>Purpose:</h2>
+  <ul>
+    <li>EXP: Explorer (for ships designed for exploration)
+      <ul>
+        <li>GRD: Guardian (for ships designed for running Guardian monuments, usually equipped with an SRV bay and point defense turrets)</li>
+        <li>LRG: Long range (for ships with long jump ranges, usually equipped with an engineered FSD and/or a Guardian FSD booster)</li>
+      </ul>
+    </li>
+    <li>TRD: Trade (for ships designed for trading)
+      <ul>
+        <li>MIN: Miner (for ships designed for mining)
+          <ul>
+            <li>LAS: Laser (for mining ships designed for laser mining, usually equipped with mining lasers)</li>
+            <li>SUR: Surface (for mining ships designed for surface mining, usually equipped with abrasion lasers)</li>
+            <li>SUB: SubSurface (for mining ships designed for subsurface mining, usually equipped with subsurface displacement missiles)</li>
+            <li>COR: Deep-Core (for mining ships designed for core mining, usually equipped with seismic charge launchers and a pulse wave scanner)</li>
+          </ul>
+        </li>
+        <li>TRA: Transporter (for ships designed for transporting, usually have weak or no shields with lots of cargo space)</li>
+      </ul>
+    </li>
+    <li>CMB: Combat (for ships designed for combat)
+      <ul>
+        <li>GRA: Ground attack (for ships specialized in Ground attack roles)</li>
+        <li>PVE: Player vs. Entity (for ships specialized in combating NPCs)</li>
+        <li>PVP: Player vs. Player (for ships specialized in player combat)</li>
+        <li>AXO: Anti-Xeno Operations (for ships designed for combating alien threats)</li>
+      </ul>
+    </li>
+    <li>REC: Rescue (for ships designed for player rescues)
+      <ul>
+        <li>FUL: Refueler (for ships meant to refuel others)
+          <ul>
+            <li>RAT: Fuel Rat (for ships specifically designed for hull seals. see <a href="https://fuelrats.com">fuelrats.com</a>)</li>
+          </ul>
+        </li>
+        <li>REP: Repair (for ships designed to repair other ships, usually equipped with repair limpet controllers or rescue multi-limpet controllers)
+          <ul>
+            <li>HUL: Hull Seal (for ships specifically designed for hull seals. see <a href="https://hullseals.space">hullseals.space</a>)</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>GEN: General-Purpose (for ships designed for versatile or undefined roles)</li>
+    <li>SPC: specialised (for ships designed for niche or specialized utility)</li>
+    <li>DEC: Decommissioned (for ships that are no longer in use and/or been stripped of all modules)</li>
+  </ul>
+
+  <h2>Examples:</h2>
+  <ul>
+    <li>MP-EXP: Medium pad exploration ship</li>
+    <li>SP-TRD: Small pad trade ship</li>
+    <li>LP-MIN: Large pad mining ship</li>
+    <li>MP-TRA: Medium pad transporter</li>
+    <li>SP-CMB: Small pad combat ship</li>
+    <li>LP-PVE: Large pad PVE combat ship</li>
+    <li>MP-PVP: Medium pad PVP combat ship</li>
+    <li>SP-AXO: Small pad anti-xeno operations ship</li>
+    <li>LP-GEN: Large pad general-purpose ship</li>
+    <li>MP-UTL: Medium pad utility ship</li>
+    <li>LP-LAS: Large pad laser mining ship</li>
+    <li>MP-COR: Medium pad deep-core mining ship</li>
+  </ul>
 </body>
 </html>
