@@ -41,7 +41,7 @@
 
         
 - GEN: General-Purpose (for ships designed for versatile or undefined roles)    
-- UTL: Utility (for ships designed for general-purpose utility or miscellaneous roles)    
+- SPC: Speccalised (for ships designed for niche or specialized utility)   
 - DEC: Decommissioned (for ships that are no longer in use and/or been stripped of all modules)    
 
 **Examples:**
