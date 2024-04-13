@@ -41,7 +41,7 @@
 
         
 - GEN: General-Purpose (for ships designed for versatile or undefined roles)    
-- SPC: Speccalised (for ships designed for niche or specialized utility)   
+- SPC: specialised (for ships designed for niche or specialized utility)   
 - DEC: Decommissioned (for ships that are no longer in use and/or been stripped of all modules)    
 
 **Examples:**
